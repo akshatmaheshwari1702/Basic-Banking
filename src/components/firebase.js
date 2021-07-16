@@ -1,13 +1,14 @@
 import firebase from "firebase";
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAsGByDL5HPGSqPpy7pNqoOKG4SGcBwlbM",
-    authDomain: "orbit-bank.firebaseapp.com",
-    projectId: "orbit-bank",
-    storageBucket: "orbit-bank.appspot.com",
-    messagingSenderId: "311506687176",
-    appId: "1:311506687176:web:8b2b0787f2829dfcf241fd",
-    measurementId: "G-NF6ZN6MNTE",
+  apiKey: "AIzaSyAgrZz-bgUX2-Gq3MjXgChMizRIHmEmFjg",
+  authDomain: "orbit-banking.firebaseapp.com",
+  projectId: "orbit-banking",
+  storageBucket: "orbit-banking.appspot.com",
+  messagingSenderId: "642305568",
+  appId: "1:642305568:web:2e05e5d9a639156247f645",
+  measurementId: "G-WXPYBPW7NH"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
